@@ -16,8 +16,6 @@ pipeline {
         git credentialsId: 'ff0c6339-c067-4d0d-95c8-a0b138ed965e', url: 'https://github.com/nabin2102/jekins-ansible-dynimc-inv'
       }
     }
-      }
-    }
      
     //Run the playbook
     stage('RunPlaybook') {
